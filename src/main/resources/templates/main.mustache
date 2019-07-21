@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Main</title>
+</head>
+<body>
+<div></div>
+<table style="width:100%">
+    <tr>
+        <th>First name + Last name</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Email</th>
+    </tr>
+    {{#messages}}
+    <tr>
+        <td>{{first_name}}</td>
+        <td>{{city}}</td>
+        <td>{{state}}</td>
+        <td>{{email}}</td>
+    </tr>
+    {{/messages}}
+</table>
+</body>
+</html>
